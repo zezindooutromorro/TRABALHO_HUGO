@@ -74,6 +74,12 @@ nav ul li a {
     text-align: center;
 }
 
+.product-item2 {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
 footer {
     background-color: #f4f4f4;
     padding: 20px;
