@@ -50,19 +50,52 @@ nav ul li a {
 
 
 
+.size-label {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+    display: block;
+}
+
 .size-selector {
     width: 100%;
-    padding: 10px;
-    margin: 20px 0;
-    border: none;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 2px solid #000;
     border-radius: 5px;
     font-size: 16px;
     background-color: #fff;
     color: #000;
+    transition: border-color 0.3s;
 }
 
-.size-selector:hover {
-    background-color: #f0f0f0;
+.size-selector:hover,
+.size-selector:focus {
+    border-color: #c8102e; /* vermelho */
+    outline: none;
+}
+
+.buy-button {
+    background-color: #000; /* negro */
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #c8102e; /* vermelho */
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #000;
 }
 
 
