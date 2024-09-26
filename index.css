@@ -23,6 +23,11 @@ header .logo img {
     height: auto;
 }
 
+.carrinho{
+    width: 100%;
+    height: auto;
+}
+
 nav ul {
     list-style: none;
     display: flex;
