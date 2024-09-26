@@ -64,6 +64,12 @@ nav ul li a {
     height: auto;
 }
 
+.login img {
+
+width: 100%;
+height: auto;    
+}
+
 /* Estilo geral da seção de produtos */
 .product-section {
     padding: 20px;
