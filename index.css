@@ -18,6 +18,11 @@ header .logo img {
     height: 40px;
 }
 
+.login{
+    width: 150px;
+    height: 150px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
