@@ -19,8 +19,8 @@ header .logo img {
 }
 
 .login{
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: auto;
 }
 
 nav ul {
@@ -64,11 +64,7 @@ nav ul li a {
     height: auto;
 }
 
-.login img {
 
-width: 100%;
-height: auto;    
-}
 
 /* Estilo geral da seção de produtos */
 .product-section {
