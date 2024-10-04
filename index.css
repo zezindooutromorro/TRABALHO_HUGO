@@ -12,6 +12,11 @@ header {
     padding: 10px;
     background-color: #000000;
     color: #fff;
+    transition: background-color 0.3s ease, height 0.3s ease;
+}
+header:hover {
+    background-color: #810000;
+    height: 60px; /* Altura ao passar o mouse */
 }
 
 header .logo img {
